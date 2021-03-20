@@ -1,0 +1,18 @@
+.header_logo {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.github_logo {
+  width: 35px;
+  fill: #fff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#rsg-root {
+  height: 100%;
+}

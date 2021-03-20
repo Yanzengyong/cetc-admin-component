@@ -1,6 +1,6 @@
 {
   "name": "cetc-admin-component",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "admin template component",
   "author": "Yanzengyong",
   "license": "MIT",
@@ -20,15 +20,17 @@
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build",
-    "doc:build": "sh doc.sh"
+    "predeploy": "cd example && yarn install && yarn run doc:build",
+    "deploy": "gh-pages -d example/styleguide",
+    "doc:start": "sh doc.sh",
+    "doc:build": "sh doc.build.sh"
   },
   "peerDependencies": {
     "react": "^16.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
+    "classnames": "^2.2.6",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.7.0",
@@ -42,13 +44,19 @@
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
     "microbundle-crl": "^0.13.10",
+    "moment": "^2.29.1",
+    "node-sass": "^5.0.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@alifd/next": "^1.22.11"
+  }
 }

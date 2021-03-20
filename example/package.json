@@ -7,16 +7,21 @@
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
     "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
     "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
-    "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject",
+    "doc": "yarn styleguidist server",
+    "doc:build": "yarn styleguidist build"
   },
   "dependencies": {
+    "@dlghq/dialog-components": "^0.311.0",
+    "cetc-admin-component": "link:..",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
-    "react-scripts": "link:../node_modules/react-scripts",
-    "cetc-admin-component": "link:.."
+    "react-scripts": "link:../node_modules/react-scripts"
   },
   "devDependencies": {
-    "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "react-styleguidist": "^11.1.5",
+    "styled-components": "^5.2.1"
   },
   "eslintConfig": {
     "extends": "react-app"
