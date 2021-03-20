@@ -76,4 +76,12 @@ npm run deploy
 
 * example/src/components
   * 创建一个文件夹来实现组件文档的生成，首字母需大写
-  * 文件夹下需要创建index.js来编写
+  * 文件夹下需要创建index.js来编写组件文档的props和method
+  * 文件夹下需要创建Readme.md来编写组件的预览及更多组件信息
+
+  **如果我们没有创建Readme，配置中也自动给您生成了默认组件，所以Readme文件不是必须的。但是需要注意的是如果我们创建了Readme文件，那么一定要加入组件的使用，否则将不会有组件预览**
+
+  **如果我们不想要组件预览效果，那文档的编辑成本将大大降低，在index.js中我们无需在组件的render函数中写正确是组件代码，直接return null即可。但为了能够正常显示props和method，我们依旧要把组件的defaultProps和propsType写上**
+
+* example/src/docs
+  * styleguide.config.js中配置的文档
