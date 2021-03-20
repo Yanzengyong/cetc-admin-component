@@ -39,6 +39,7 @@ module.exports = {
       }
     }
   },
+  defaultExample: path.resolve(__dirname, './src/DefaultExample.md'),
   styleguideComponents: {
     ComponentsListRenderer: path.resolve(__dirname, './src/styleguide-components/ComponentsList'),
     HeadingRenderer: path.resolve(__dirname, './src/styleguide-components/Heading'),
@@ -70,7 +71,7 @@ module.exports = {
       name: 'UI 组件',
       content: 'src/docs/ui.md',
       components: 'src/components/**/*.js',
-      exampleMode: 'expand', // 'hide' | 'collapse' | 'expand'
+      exampleMode: 'collapse', // 'hide' | 'collapse' | 'expand'
       usageMode: 'expand', // 'hide' | 'collapse' | 'expand'
     }
   ]

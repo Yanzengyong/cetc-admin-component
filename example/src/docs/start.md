@@ -1,4 +1,4 @@
-```shell
+<!-- ```jsx static
 
 import { BasicLayout } from 'cetc-admin-component'
 
@@ -23,4 +23,4 @@ class Demo extends React.Component {
   }
 }
 
-```
+``` -->

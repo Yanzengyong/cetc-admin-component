@@ -4,27 +4,34 @@
 
 [![NPM](https://img.shields.io/npm/v/cetc-admin-component.svg)](https://www.npmjs.com/package/cetc-admin-component) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
+## Install / 安装
 
 ```bash
 npm install --save cetc-admin-component
 ```
 
-## Usage
+## Usage / 使用
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'cetc-admin-component'
+import React from 'react'
+import { Button } from 'cetc-admin-component'
 import 'cetc-admin-component/dist/index.css'
+import '@alifd/next/dist/next.css' // 因为依赖了@alifd/next的样式，所以需要引入
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
+class Example extends React.Component {
+  render () {
+  	return (
+      <Button>我是一个按钮</Button>
+  	)
   }
 }
+
 ```
+
+## 开发说明
+
+[该组件项目开发说明](https://github.com/Yanzengyong/cetc-admin-component/blob/master/DEV.md)
 
 ## License
 
-MIT © [Yanzengyong](https://github.com/Yanzengyong)
+MIT © [数据智能服务小组](https://github.com/Yanzengyong/cetc-admin-component)
