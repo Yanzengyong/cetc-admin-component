@@ -28,6 +28,10 @@ class Example extends React.Component {
 
 ```
 
+## 组件文档
+
+访问地址：[http://www.yanzengyong.site/cetc-admin-component/](http://www.yanzengyong.site/cetc-admin-component/)
+
 ## 开发说明
 
 [该组件项目开发说明](https://github.com/Yanzengyong/cetc-admin-component/blob/master/DEV.md)
