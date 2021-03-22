@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.fc8ff5ed.chunk.css",
-    "main.js": "./build/main.4cd9f38b.js",
-    "runtime-main.js": "./build/bundle.a7dce726.js",
-    "build/2.4f02a8ac.js": "./build/2.4f02a8ac.js",
-    "build/2.4f02a8ac.js.LICENSE.txt": "./build/2.4f02a8ac.js.LICENSE.txt",
-    "index.html": "./index.html",
-    "precache-manifest.2ff33581390b7d7e957d8a3e447ce5a7.js": "./precache-manifest.2ff33581390b7d7e957d8a3e447ce5a7.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.fc8ff5ed.chunk.css.map": "./static/css/main.fc8ff5ed.chunk.css.map"
+    "main.css": "/Yanzengyong/gx-component/static/css/main.fc8ff5ed.chunk.css",
+    "main.js": "/Yanzengyong/gx-component/build/main.4cd9f38b.js",
+    "runtime-main.js": "/Yanzengyong/gx-component/build/bundle.a7dce726.js",
+    "build/2.5528ca79.js": "/Yanzengyong/gx-component/build/2.5528ca79.js",
+    "build/2.5528ca79.js.LICENSE.txt": "/Yanzengyong/gx-component/build/2.5528ca79.js.LICENSE.txt",
+    "index.html": "/Yanzengyong/gx-component/index.html",
+    "precache-manifest.5ac77c467522e4e20e768c872e109b83.js": "/Yanzengyong/gx-component/precache-manifest.5ac77c467522e4e20e768c872e109b83.js",
+    "service-worker.js": "/Yanzengyong/gx-component/service-worker.js",
+    "static/css/main.fc8ff5ed.chunk.css.map": "/Yanzengyong/gx-component/static/css/main.fc8ff5ed.chunk.css.map"
   },
   "entrypoints": [
     "build/bundle.a7dce726.js",
-    "build/2.4f02a8ac.js",
+    "build/2.5528ca79.js",
     "static/css/main.fc8ff5ed.chunk.css",
     "build/main.4cd9f38b.js"
   ]
