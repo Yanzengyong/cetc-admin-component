@@ -72,7 +72,7 @@ export function StyleGuideRenderer({ title, version, children, toc }) {
           <span>{title}</span>
         </HeaderContent>
         <HeaderNav>
-          <a href='https://github.com/Yanzengyong' target='_blank' rel="noopener noreferrer">
+          <a href='https://github.com/Yanzengyong/cetc-admin-component' target='_blank' rel="noopener noreferrer">
             <img className='github_logo' src={require('./GitHub-Mark-Light.png')} alt="github icon" />
           </a>
         </HeaderNav>
