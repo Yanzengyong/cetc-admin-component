@@ -70,6 +70,8 @@ npm run deploy
 ```
 这行命令会自动为你打包example中编写好的组件文档并发布到服务器中
 
+访问地址：[http://www.yanzengyong.site/cetc-admin-component/](http://www.yanzengyong.site/cetc-admin-component/)
+
 ## 组件文档的开发
 
 组件文档编写涉及的文件有：example/src/components、example/src/docs
